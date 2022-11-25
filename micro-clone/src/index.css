@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hover-underline {
+    @apply no-underline hover:underline hover:underline-offset-4 text-gray-700 decoration-1 cursor-pointer;
+  }
+}
